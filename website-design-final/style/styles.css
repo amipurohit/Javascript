@@ -1,0 +1,145 @@
+
+/* classes for navbar and footer colores and font size*/
+
+.navbar , .page-footer  {
+	/* background: linear-gradient(to right, #e85ec7, #542eff) */
+	background: linear-gradient(to right, #fc4664, #fff000)
+	opacity:0.5;
+	
+}
+.navbar h1{
+	color:black;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.img-wrapper {
+	position: relative;
+	width: 100%;
+   }
+  
+  .img-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+  }
+  
+  .img-overlay:before {
+	content: ' ';
+	display: block;
+	/* adjust 'height' to position overlay content vertically */
+	height: 33%;
+  }
+
+  
+/* Style for Our team page */
+.card {box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);}
+
+/* .card:hover {
+    box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 25px 0 rgba(0, 0, 0, 0.19);
+    border:0.7px solid rgba(0, 0, 0, 0.418);
+    margin: 10px;
+} */
+
+div img {
+    width: 100%;
+    height: 80%;
+}
+
+.row2 {
+    border-bottom-color: blue;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-bottom-style: solid;
+    padding-bottom: 4%;
+}
+
+
+
+footer {
+    /* background-color: lightgreen; */
+    width: 100%;
+    height: 10%;
+    padding: 2% 1%;
+    text-align: center
+}
+
+.btn-dark {
+    color: white;
+}
+
+
+.center {
+    padding-left: 38%;
+}
+/* Our team style ends */
+
+
+/*  contact us */
+body {
+	font-family: 'Oswald', sans-serif;
+	background-color:#fff;
+	max-width:1200px;
+	font-size:  1.2rem;
+	background-image: linear-gradient(to right, #fc4664 , #fff000);
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*.container-fuild{
+	max-width: 1366px;
+	max-width:80%;
+	
+}	*/
+
+h1, h2, h3, h4, h5, h6, .secondary {
+	font-family: 'Lobster', cursive;
+	color:#632c02;
+	text-shadow: 0 0 5px #fff,
+	             0 0 10px #fff,
+				 0 0 15px #fff,
+				 0 0 20px #ff0080,
+				 0 0 25px #ff0080;
+}	
+h1 {
+	font-size: 2.5vw;
+}
+.card:hover, .btn:hover, .form-check:hover, .form-control-sm:hover {
+   box-shadow: 0 0 5px #fff,
+	             0 0 10px #fff,
+				 0 0 15px #fff,
+				 0 0 20px #ff0080,
+				 0 0 25px #ff0080;
+}
+
+ 
+ /* coursel*/
+ .carousel{
+	 width:100%;
+	 height:80%;
+ }
+ 
+ 
+ 
+ 
+ /*workshop*/
+ 
+ .courses p{
+background-color: rgba(255, 0, 0, 0.3) !important;
+color: navy;
+}
+.courses a{
+color: white;
+}
+.courses .secondary{
+  color: navy;
+  background-color: rgba(255, 0, 0, 0.3) !important;
+}
+
+footer{
+	margin-top:10px;
+}	
+	
+/*  contact us end */ 
+ 
