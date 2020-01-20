@@ -1,0 +1,89 @@
+/* style.css */
+body {
+	margin:0;
+	padding:0;
+	background-color: #a28744;
+	
+	background-image: url("../image/temp.jpg");
+	font-family:"lucida sans unicode", helvetica, sans-serif;
+}
+
+h1{
+	 text-align:center;
+	 font-size:1.8em;
+	 font-weight:bold;
+	 color:black;
+	 background-color: #a28744;
+	 
+	 font-style: italic;
+ }
+
+#main_container{
+	  
+	 width:80%;
+     height:80%;
+     margin:0 auto;
+}
+
+#start_div {
+	 text-align:center;
+	 font-size:1.8em;
+	 font-weight:bold;
+	 color:black;
+	 border: 3px solid #a28744;
+}
+
+table {
+	text-align:center;
+	border: 2px solid #61573b;
+	padding:3px;
+	margin:3px;
+}
+
+
+img {
+	border: 1px solid #61573b;
+}
+
+.button {
+  background-color: #a28744;
+  border: none;
+  border-radius: 25px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight:bold;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+
+#start_btn, #info_btn {
+	background-color: #a28744;
+	
+	color: black;
+	border: 1px solid #a28744;
+}
+
+.container_table{
+	text-align:center;
+}
+
+#countdown , #message{
+	background-color: #61573b;
+	color: black;
+	border: 1px solid #61573b;
+	font-size:1.8em;
+	font-weight:bold;
+}
+
+#info{
+	
+	margin:100px 200px;
+	padding:20px 10px;
+	font-size:1.1em;
+	font-weight:bold;
+}

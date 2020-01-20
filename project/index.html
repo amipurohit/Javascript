@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset ="UTF-8" />
+	  <title> The memory game </title>
+	  <meta name="author" content="ami purohit"/>
+	  <meta name="description" content="This program code is for memory game"/>
+	  <meta name="keyword" content="game, memory game, memory "/>
+	  <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body> 
+       
+	   <div id="main_container">
+    	   <h1>The Memory Game</h1>
+           <div id="start_div">
+             <button class="button"  id="start_btn" onclick="startGame()">Start</button>
+		     <button class="button"  id="score_btn" > Current Score </button>
+             <button class="button"  id="games_played_btn"> Games Played </button>
+             <button class="button"  id="games_win_btn">Games Won </button>
+			 <!-- //<button class="button"  id="info_btn"> Info </button> -->
+			 <a href="info.html" target="_blank" class="button"  id="info_btn"> Info </a>
+          </div>
+	      <br>
+	   
+	      
+  	      <div class="container_table">	
+		      
+              <table id="timer_tbl"> </table>
+			  <p id = "countdown"> Countdown </p>
+          </div>
+	      <br>
+	      <div class="container_table">
+              <table id="display_tbl"> </table>
+			  <p id = "message">  </p>
+          </div>
+          <br>
+          <div class="container_table">
+              <table id="displayAll_tbl" class = "displayAll"> </table>
+	      </div>	   
+      </div>
+   
+    
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js" 
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>	
+   
+     <script src = "js/game.js"> </script>
+
+   </body>
+</html>
